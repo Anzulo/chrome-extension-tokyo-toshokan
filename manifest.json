@@ -1,0 +1,13 @@
+{
+  "name": "Tokyo Toshokan",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+      "default_title": "Set this page's color.",
+      "default_icon": "assets/icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
